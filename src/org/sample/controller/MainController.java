@@ -31,6 +31,7 @@ public class MainController {
 		System.out.println("##########user Not Av"+b);
 		if(b==true){
 		System.out.println("Value of User Status is"+b);
+		System.out.println("From Siva System Code");
 		ModelAndView model=new ModelAndView("details");
 		model.addObject("uname",name);
 		model.addObject("password",pwd);
